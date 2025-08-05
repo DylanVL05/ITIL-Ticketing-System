@@ -1,0 +1,34 @@
+# 🔐 Archivos sensibles en cualquier carpeta
+**/env.js
+**/glpi.env
+**/.env
+**/.env.*
+
+# 🧪 Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ⚙️ Archivos de sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# 🧠 Archivos de editores
+.vscode/
+.idea/
+*.code-workspace
+
+# 🐍 Python cache (por si usas scripts)
+__pycache__/
+*.py[cod]
+
+# ⚙️ Node.js (si en algún momento lo integrás)
+node_modules/
+
+# 🚫 Ignora backups
+*.~*
+*.orig

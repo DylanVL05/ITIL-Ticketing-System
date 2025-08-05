@@ -1,0 +1,5 @@
+# Desactiva el listado de archivos en el navegador
+Options -Indexes
+
+# Opcional: Redirige a la raíz si alguien intenta acceder a un directorio
+# ErrorDocument 403 /index.html

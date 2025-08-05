@@ -1,0 +1,23 @@
+/* Oscurece el fondo del body si no estás usando Bootstrap clases */
+body {
+  background-color: #1e1e2f;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+textarea, input {
+  background-color: #777781 !important;
+  color: white !important;
+  border: none;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #aaa;
+}
+
+#respuesta {
+  font-size: 14px;
+}
